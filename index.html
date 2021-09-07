@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <style>
+    html{
+      font-size: 62.5%;
+      font-family: monospace;
+    }
+    body{
+      font-size: 1.8rem;
+    }
+    .profilePic{
+      width: 18rem;
+      border-radius: 50%;
+
+    }
+    .socialLinks{
+      display: flex;
+      list-style: none;
+      padding-left: 0;
+    }
+    .socialLinks a{
+      text-decoration: none;
+      color: black;
+      margin-left: 1.5rem;
+    }
+    i{
+      font-size: 3rem;
+      margin-right: 0.5rem;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Daniel Cruz</h1>
+  <div>
+    <img class="profilePic" src="./profileTinyPic.jpg" alt="Foto de Perfil">
+
+  </div>
+  <ul class="socialLinks">
+    
+    <li><a href="https://github.com/Dcruzjs" title="GitHub Account" target="_blank"><i class="fab fa-github"></i>My GitHub</a></li>
+
+    <li><a href="https://www.linkedin.com/in/dcruzjs/" title="LinkedIn Profile" target="_blank"><i class="fab fa-linkedin"></i>My LinkedIn</a></li>
+
+    <li><a href="mailto:daniel@dcruz.dev" class="social-link gmail" target="_blank"><i class="fas fa-envelope"></i>My E-Mail</a></li>
+    <li>
+      <a href="skype:dcruz.js?call" class="social-link skype" target="_blank"><i class="fab fa-skype"></i>Skype</a>
+    </li>
+  </ul>
+  <h2>Technologies</h2>
+  <table>
+    <tr>
+      <th>Front-End</th>
+      <th>Python</th>
+      <th>JavaScript</th>
+      <th>Database</th>
+      <th>Concepts</th>
+    </tr>
+    <tr>
+      <td>HTML5</td>
+      <td>Django</td>
+      <td>Express</td>
+      <td>MySQL</td>
+      <td>AJAX</td>
+    </tr>
+    <tr>
+      <td>CSS3</td>
+      <td>Flask</td>
+      <td>Mongoose</td>
+      <td>MongoDB</td>
+      <td>OOP</td>
+    </tr>
+    <tr>
+      <td>Bootstrap</td>
+      <td>Unittest</td>
+      <td>React</td>
+      <td></td>
+      <td>REST</td>
+    </tr>
+  </table>
+
+  <h2>Chore Door</h2>
+  <p>A simple Game Developed using HTML, CSS and JavaScript</p>
+  <a href="https://dcruzjs.github.io/choreBot-Game/" title="Chore Door Game">DEMO</a>
+
+  <form action="">
+    <h2>Contact Me</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Full Name" required autocomplete="name"><br>
+    <label for="email">E-Mail:</label>
+    <input type="email" id="email" required autocomplete="email" placeholder="username@example.com"><br>
+    <label for="message">Message:</label><br>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+    <button type="submit" >Send Message ></button>
+  </form>
+
+  <script src="https://kit.fontawesome.com/bcd8151c88.js" crossorigin="anonymous"></script>
+</body>
+</html>
